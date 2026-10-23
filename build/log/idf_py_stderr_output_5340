@@ -1,0 +1,14 @@
+Command: ninja flash
+
+A fatal error occurred: Could not open PORT, the port is busy or doesn't exist.
+(could not open port 'PORT': FileNotFoundError(2, '系统找不到指定的文件。', None, 2))
+
+Hint: Check if the port is correct and ESP connected
+
+CMake Error at F:/esp/v6.1/esp-idf/components/esptool_py/run_serial_tool.cmake:142 (message):
+  
+  F:/Espressif/tools/python/v6.1/venv/Scripts/python.exe;-m;esptool;--chip;esp32s3
+  failed.
+
+
+
